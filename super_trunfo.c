@@ -10,26 +10,29 @@ int main(){
    float pib;
    float area;
 
-   printf("Digite a inicial: \n");
-   scanf("%c", &opcao);
+   // Leitura da letra inicial (char)
+   printf("Digite a inicial: ");
+   scanf(" %c", &opcao);
 
-   printf("Digite o código da carta: \n");
-   scanf("%s", &carta);
+   // Leitura do código da carta (char [])
+   printf("Digite o código da carta: ");
+   scanf("%s", carta);
 
-   printf("Digite o nome da cidade: \n");
-   scanf("%s", &nome);
+   // Leitura do nome da cidade
+   printf("Digite o nome da cidade: ");
+   scanf("%s", nome);
 
-   printf("Digite a quantidade de habitantes: \n");
-   scanf("%d\n", &populacao);
+   printf("Digite a quantidade de habitantes: ");
+   scanf("%d", &populacao);
 
-   printf("Digite o número de locais turísticos: \n");
-   scanf("%d\n", &turismo);
+   printf("Digite o número de locais turísticos: ");
+   scanf("%d", &turismo);
 
-   printf("Digite o valor Produto Interno Bruto da cidade: \n");
-   scanf("%f\n", &pib);
+   printf("Digite o valor Produto Interno Bruto da cidade: ");
+   scanf("%f", &pib);
 
-   printf("Digite a área em quilômetros: \n");
-   scanf("%f\n", &area);
+   printf("Digite a área em quilômetros: ");
+   scanf("%f", &area);
 
 
    printf("A letra do Estado é: %c\n", opcao);
@@ -40,7 +43,7 @@ int main(){
    printf("O número de pontos turísticos é: %d\n", turismo);
 
    printf("O PIB da cidade é: %f\n", pib);
-   printf("A área da cidade é: %f\n", area);
+   printf("A área da cidade é em km^2: %f\n", area);
 
 
       return 0;
