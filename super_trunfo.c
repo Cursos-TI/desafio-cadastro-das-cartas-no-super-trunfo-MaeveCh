@@ -29,7 +29,7 @@ int main(){
    scanf("%f\n", &pib);
 
    printf("Digite a área em quilômetros: \n");
-   scanf("%f", &area);
+   scanf("%f\n", &area);
 
 
    printf("A letra do Estado é: %c", opcao);
