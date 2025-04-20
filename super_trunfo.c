@@ -3,7 +3,7 @@
 int main(){
 //carta 1
    char inicial;
-   char carta[20];
+   char carta[3];
    char nome[20];
    int populacao;
    int turismo;
