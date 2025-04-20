@@ -11,16 +11,16 @@ int main(){
    float area;
 
    printf("Digite a inicial: \n");
-   scanf("%c", &opcao);
+   scanf("%c\n", &opcao);
 
-   printf("Digite o código da carta: \n");
+   printf("Digite um anagrama: \n");
    scanf("%s", &carta);
 
    printf("Digite o nome da cidade: \n");
    scanf("%s", &nome);
 
    printf("Digite a quantidade de habitantes: \n");
-   scanf("%d", &populacao);
+   scanf("%d\n", &populacao);
 
    printf("Digite o número de locais turísticos: \n");
    scanf("%d\n", &turismo);
@@ -32,15 +32,15 @@ int main(){
    scanf("%f\n", &area);
 
 
-   printf("A letra do Estado é: %c", opcao);
-   printf("O código da carta é: %s", carta);
-   printf("O nome da cidade é: %s", nome);
+   printf("A letra do Estado é: %c\n", opcao);
+   printf("O código da carta é: %s\n", carta);
+   printf("O nome da cidade é: %s\n", nome);
    
-   printf("O número de habitantes é: %d", populacao);
-   printf("O número de pontos turísticos é: %d", turismo);
+   printf("O número de habitantes é: %d\n", populacao);
+   printf("O número de pontos turísticos é: %d\n", turismo);
 
-   printf("O PIB da cidade é: %f", pib);
-   printf("A área da cidade é: %f", area);
+   printf("O PIB da cidade é: %f\n", pib);
+   printf("A área da cidade é: %f\n", area);
 
 
       return 0;
