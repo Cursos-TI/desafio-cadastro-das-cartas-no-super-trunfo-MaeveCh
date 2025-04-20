@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-//carta 1
+ 
    char opcao;
    char carta[20];
    char nome[20];
@@ -11,9 +11,9 @@ int main(){
    float area;
 
    printf("Digite a inicial: \n");
-   scanf("%c\n", &opcao);
+   scanf("%c", &opcao);
 
-   printf("Digite um anagrama: \n");
+   printf("Digite o código da carta: \n");
    scanf("%s", &carta);
 
    printf("Digite o nome da cidade: \n");
